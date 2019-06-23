@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			tools:context=".WebSocketActivity">
+
+			<TextView
+				android:id="@+id/test_count"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:layout_marginEnd="8dp"
+				android:textAlignment="center"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="14sp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/one_sec_button"
+				style="@style/CustomButton"
+				android:layout_width="match_parent"
+				android:layout_height="64dp"
+				android:layout_marginTop="64dp"
+				android:text="@string/start_websocket_1_sec_test"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<TextView
+				android:id="@+id/one_second_result"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="16dp"
+				android:textAlignment="center"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="14sp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/one_sec_button" />
+
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/five_sec_button"
+				style="@style/CustomButton"
+				android:layout_width="match_parent"
+				android:layout_height="64dp"
+				android:layout_marginTop="16dp"
+				android:text="@string/start_websocket_5_sec_test"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/one_second_result" />
+
+			<TextView
+				android:id="@+id/five_seconds_result"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="16dp"
+				android:textAlignment="center"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="14sp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/five_sec_button" />
+
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/ten_sec_button"
+				style="@style/CustomButton"
+				android:layout_width="match_parent"
+				android:layout_height="64dp"
+				android:layout_marginTop="16dp"
+				android:text="@string/start_websocket_10_sec_test"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/five_seconds_result" />
+
+			<TextView
+				android:id="@+id/ten_seconds_result"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="16dp"
+				android:textAlignment="center"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="14sp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/ten_sec_button" />
+
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/thirty_sec_button"
+				style="@style/CustomButton"
+				android:layout_width="match_parent"
+				android:layout_height="64dp"
+				android:layout_marginTop="16dp"
+				android:text="@string/start_websocket_30_sec_test"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/ten_seconds_result" />
+
+			<TextView
+				android:id="@+id/thirty_seconds_result"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="16dp"
+				android:textAlignment="center"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="14sp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/thirty_sec_button" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	</ScrollView>
+</layout>

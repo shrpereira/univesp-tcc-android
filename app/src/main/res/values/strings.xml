@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">Tcc Battery Tester</string>
+	<string name="check_server">Check Server</string>
+	<string name="polling_http">POLLING HTTP</string>
+	<string name="websocket">WebSocket</string>
+	<string name="start_http_1_sec_test">Start HTTP 1 sec Test</string>
+	<string name="start_http_5_sec_test">Start HTTP 5 sec Test</string>
+	<string name="start_http_10_sec_test">Start HTTP 10 sec Test</string>
+	<string name="start_http_30_sec_test">Start HTTP 30 sec Test</string>
+	<string name="start_websocket_1_sec_test">Start WebSocket 1 sec Test</string>
+	<string name="start_websocket_5_sec_test">Start WebSocket 5 sec Test</string>
+	<string name="start_websocket_10_sec_test">Start WebSocket 10 sec Test</string>
+	<string name="start_websocket_30_sec_test">Start WebSocket 30 sec Test</string>
+	<string name="start_websocket_test">Start WebSocket Test</string>
+	<string name="messages_test_finished">Messages test finished</string>
+	<string name="x_seconds_test_finished">$s seconds test finished</string>
+	<string name="this_is_a_text_message">This is a test message</string>
+</resources>
